@@ -13,7 +13,7 @@ Die Evaluation wurde über das
 verarbeitet die erzeugten Antwortsegmente und bewertet die tatsächlich
 verwendeten Gesten.
 
-Das [Unreal-Engine-Frontend](https://github.com/kayafat/Bachelor_Frontend)
+Das [Unreal-Engine-Frontend](https://github.com/kayafat/Frontend_Bachelor)
 wird für die automatisierte Evaluation nicht direkt benötigt. Es verwendet
 die geprüfte Gestenauswahl jedoch im Gesamtsystem für die Animation des
 MetaHuman-basierten Dozenten.
@@ -127,7 +127,7 @@ verfügbar: [ChatGPT-Prompt](https://chatgpt.com/share/6a698126-1bfc-83eb-8105-6
 ## Zugehörige Repositories
 
 - [Backend](https://github.com/kayafat/Backend_Bachelor)
-- [Unreal-Engine-Frontend](https://github.com/kayafat/Bachelor_Frontend)
+- [Unreal-Engine-Frontend](https://github.com/kayafat/Frontend_Bachelor)
 
 ## Autor
 
