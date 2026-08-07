@@ -18,7 +18,9 @@ wird für die automatisierte Evaluation nicht direkt benötigt. Es verwendet
 die geprüfte Gestenauswahl jedoch im Gesamtsystem für die Animation des
 MetaHuman-basierten Dozenten.
 
-## Inhalt des Repositories
+---
+
+# Inhalt des Repositories
 
 | Datei | Beschreibung |
 |---|---|
@@ -27,6 +29,8 @@ MetaHuman-basierten Dozenten.
 | `gesture_eval_results_llama8b.csv` | 150 Testläufe des Modells llama3.1:8B |
 | `gesture_eval_results_llama70b.csv` | 150 Testläufe des Modells llama3.1:70B |
 | `PromptFuerEvaluation.pdf` | Prompt zur unabhängigen Berechnung und Überprüfung der Ergebnisdaten |
+
+---
 
 ## Evaluationsaufbau
 
@@ -47,6 +51,8 @@ Die zentralen Bewertungsgrößen sind:
 - die Übereinstimmung der ersten verwendeten Geste,
 - ungültige oder unangemessen starke Gesten,
 - der automatische Score von 0 bis 2.
+
+---
 
 ## Verwendung mit dem Backend
 
@@ -75,6 +81,8 @@ py -3.10 evaluation/run_gesture_eval.py
 
 Während der Ausführung müssen die in der Backend-Dokumentation beschriebenen
 Dienste, insbesondere die Ollama-Verbindung zum DACHS-Cluster, verfügbar sein.
+
+---
 
 ## Auszüge aus den CSV-Dateien
 
@@ -109,6 +117,8 @@ enthalten zusätzliche Angaben zu Antworten, Gesten, Validierung und Bewertung.
 | 3 | `greeting` | `hello_pose`&#124;`acknowledging_pose`&#124;`talk_pose` | 1.00 | 2 |
 | … | … | … | … | … |
 
+---
+
 ## Prompt zur unabhängigen Auswertung
 
 Die Datei
@@ -124,12 +134,15 @@ des Auswertungsauftrags dar.
 Die zugehörige geteilte Auswertung ist ergänzend unter folgendem Link
 verfügbar: [ChatGPT-Prompt](https://chatgpt.com/share/6a698126-1bfc-83eb-8105-6c5a3283c005)
 
+---
+
 ## Zugehörige Repositories
 
 - [Backend](https://github.com/kayafat/Backend_Bachelor)
 - [Unreal-Engine-Frontend](https://github.com/kayafat/Frontend_Bachelor)
 
-## Autor
+---
 
-- **Fatih Kaya**
-- Bachelorarbeit, Hochschule Esslingen
+>### Autor
+>- **Fatih Kaya**
+>- Bachelorarbeit, Hochschule Esslingen
